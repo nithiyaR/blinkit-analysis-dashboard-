@@ -1,43 +1,76 @@
-**Blinkit-analysis-dashboard-**
-Blinkit’s Power BI dashboard analyzes sales, ratings, and inventory trends. Key insights show $1.20M revenue, strong demand for low-fat items, and top sales in fruits, vegetables, and snacks. Medium outlets in Tier 3 areas perform best, with supermarkets leading in overall sales.
-This project showcases a detailed Power BI dashboard designed to explore Blinkit’s performance across sales, customer feedback, and inventory distribution. The dashboard highlights essential metrics and provides actionable insights to help identify improvement areas and business opportunities.
+**Blinkit Sales Dashboard (Power BI)**
 
-**Core Metrics (KPIs)**
+**Project Overview**
+This project is an interactive Power BI dashboard designed to analyze Blinkit’s sales performance across different outlet types, sizes, locations, and product categories. The goal is to convert raw retail data into actionable business insights for better decision-making.
 
-	The analysis centers around these major indicators:
+**Data Source**
 
-	Total Revenue: $1.20M generated from overall product sales
+The dataset was collected from Kaggle and represents simulated real-world Blinkit retail sales data. It includes details such as outlet type, location tier, item category, fat content, sales amount, ratings, and establishment year. The data was imported into Power BI for analysis.
 
-	Average Revenue per Sale: $141
+Blinkit Sales Dashboard (Power BI)
 
-	Total Items Sold: 8,523 unique products
+**Project Overview**
+This project is an interactive Power BI dashboard designed to analyze Blinkit’s sales performance across different outlet types, sizes, locations, and product categories. The goal is to convert raw retail data into actionable business insights for better decision-making.
 
-	Customer Satisfaction Score: Average rating of 3.9/5
+**Data Source**
 
-**Key Findings**
+The dataset was collected from Kaggle and represents simulated real-world Blinkit retail sales data. It includes details such as outlet type, location tier, item category, fat content, sales amount, ratings, and establishment year. The data was imported into Power BI for analysis.
 
-	Blinkit records strong revenue, exceeding the $1 million mark.
+**Data Cleaning**
 
-	Low-fat products outperform regular variants, pointing toward a health-conscious customer base.
+	Data preparation was performed using Power Query and involved:
 
-	Fruits, vegetables, and snacks dominate the sales volume.
+	Handling missing and null values
 
-	Medium-sized outlets located in Tier 3 cities show the strongest profitability.
+	Standardizing category names and fat content
 
-	Supermarkets contribute the highest sales, whereas grocery stores excel in product visibility.
+	Removing duplicate records
 
-**Disclaimer**
+	Correcting data types
 
-	Dynamic Filter Panel: Users can refine the data based on outlet location tier, store size, and product categories.
+**Reviewing outliers for accuracy**
 
-	Outlet Establishment Timeline: Tracks the expansion of outlets from 2012 to 2022.
+Structuring data into fact and dimension tables
 
-	Fat Content Breakdown: Compares sales between regular-fat and low-fat items.
+Key Measures & KPIs
 
-	Product Category Insights: Displays how different item types contribute to overall sales.
+	Total Sales
 
-	Store Size & Location Review: Evaluates how outlet size and geographic tier influence sales performance.
+	Average Sales
 
-	Outlet Type Evaluation: Contrasts various outlet formats using metrics such as sales, product count, average revenue, visibility, and ratings.
+	Average Rating
+
+	Number of Items Sold
+
+	Sales by Outlet Type, Size, and Location Tier
+
+	Sales by Item Category and Fat Content
+
+	Year-wise Sales Trend
+
+**Dashboard Features**
+
+	KPI cards for quick performance overview
+
+	Visualizations such as bar charts, donut charts, line charts, and tables
+
+	Interactive slicers for Outlet Size, Location, and Item Type
+
+**Key Insights**
+
+	Tier 3 outlets generate the highest sales
+
+	Supermarket Type 1 is the top-performing outlet
+
+	Regular fat products sell more than low-fat
+
+	Fruits and snacks are top categories
+
+	Medium-sized outlets perform better
+
+**Conclusion**
+
+This dashboard showcases end-to-end BI development, from data collection and cleaning to visualization and insight generation. It helps stakeholders identify high-performing areas and improve strategic planning through data-driven insights.
+
 
 
